@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+header {
+    top: 0;
+    padding: 30px 100px;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    background-color:#c174e8 ;
+}
+.logo {
+    font-size: 2em;
+    color: #555;
+    cursor: default;
+}
+.logo span {
+    color: #7d2ae8;
+}
+.navigation {
+    margin-left: -300px;
+}
+.navigation a {
+    font-size: 1.1em;
+    color: #555;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+.navigation a:hover {
+    color: #7d2ae8;
+}
+.talk {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: #7d2ae8;
+    border-radius: 10px;
+    border: 2px solid #7d2ae8;
+    font-weight: 500;
+    transition: .3s;
+}
+.talk:hover {
+    color: #7d2ae8;
+    background: transparent;
+}
+.firstsection{
+    display :flex;
+    justify-content: space-around;
+    margin: 100px 0;
+}
+.firstsection div{
+    width: 40%
+}
+.leftsection {
+    margin: 110px;
+    color: #555;
+}
+.leftsection h2 {
+    font-size: 33px;
+}
+.leftsection p {
+    color: hsl(266, 81%, 54%);
+}
+.leftsection h4 {
+    font-size: 22px;
+}
+.leftsection h5 {
+    padding: 10px 0 40px 0;
+}
+#element{
+    color: hsl(266, 81%, 54%);
+    font-size: 2em;
+}
+main hr{
+    background: #7d2ae8;;
+}
+
+
+#about{
+    padding: 80px 0;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    flex-basis: 60%;
+
+}
+#PROJECTS{
+    padding: 50px 0;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 10fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    background: #c5a4f1;
+    padding: 40px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+    transition:background 0.5s, transform 0.5s;
+}
+.services-list div:hover{
+    background: #c5a4f1;
+    transform: translateY(-10px);
+}
+#contact-section {
+    padding: 50px;
+}
+
+#contact-section h2 {
+    color: #333;
+}
+
+#contact-section p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+#contact-section form input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#contact-section form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-section form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+marquee {
+    background-color: #7d2ae8;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+#PROJECTS{
+    margin: 60px;
+}

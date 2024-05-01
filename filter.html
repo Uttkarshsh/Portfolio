@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Filter</title>
+  <style>
+    h1{
+        color: #7d2ae8;;
+    }
+    </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-app="searchApp">
+    <h1>Filter </h1>
+
+<div ng-controller="SearchController">
+  <input type="text" ng-model="searchQuery" placeholder="Search...">
+  
+  <ul>
+    <li ng-repeat="item in filteredItems = (items | filter:searchQuery)">
+      {{ item }}
+    </li>
+  </ul>
+  
+  <p ng-if="filteredItems.length === 0">No results found.</p>
+</div>
+
+<script>
+  angular.module('searchApp', [])
+  .controller('SearchController', function($scope) {
+    $scope.items = [
+      'UTTKARSH',
+      'ADITYA',
+      'DEV',
+      'ARNIM',
+      'PRASHANT',
+      'ANUJ',
+      'DIVYA'
+    ];
+  });
+</script>
+
+</body>
+</html>

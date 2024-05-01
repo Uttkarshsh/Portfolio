@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="inputValidationApp">
+<head>
+    <meta charset="UTF-8">
+    <title> color changing box/title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+</head>
+<body ng-controller="InputValidationController">
+
+    <input type="text" ng-model="userColor" ng-style="{ 'background-color': userColor }" placeholder="Enter color name or hex code">
+
+    <script>
+        var app = angular.module('inputValidationApp', []);
+
+        app.controller('InputValidationController', function($scope) {
+            $scope.userColor = ''; 
+        });
+    </script>
+
+</body>
+</html>
+ 

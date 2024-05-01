@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>W</span>EB</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#PROJECTS">Projects</a>
+            <a href="#contact-section">Contact</a>
+        </nav>
+        <a href="#" class="talk">Let's Talk</a>
+    </header>
+    <section class="firstsection">
+        <div class="leftsection">
+            <h2>Hi, I'm <p>UTTKARSH SHARMA</p></h2>
+            <h4>UPES STUDENT</h4>
+            <span id="element"></span>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <script>
+                var typed = new Typed('#element', {
+                  strings: ['Web Designer', 'Web Developer','Web Designer', 'Web Developer','Web Designer', 'Web Developer'],
+                  typeSpeed: 80,
+                });
+              </script>
+        </div>
+        <br>
+        <div class="rightsection">
+            <img src="dev.png" alt="" width="600px" >
+        </div>
+    </section>
+    <hr>
+    <div id = "about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <br><br>
+                    <img src="code.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <br><br><br><br><br><br><br>
+                    <h1>ABOUT ME</h1>
+                    <br>
+                   
+                    <p><b>I am Uttkarsh Sharma and a dedicated college student with a passion for coding and data structures and algorithms (DSA). Beyond the academic realm, he finds joy in expressing his creativity through drawing. When I not immersed in lines of code or sketching intricate designs, you'll likely find me on the volleyball court, where he channels his energy into spirited games and teamwork. Balancing my love for technology with my hobbies keeps life exciting and fulfilling for me!</b</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div id="PROJECTS">
+        <div class="container">
+            <h1 class="sub-tittle">PROJECTS</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Cost Calculator</h2>
+                    <a href="costcalculator.html">click here</a>
+                </div>
+                <div>
+                    <h2>Random Number Generator</h2>
+                    <a href="random.html">click here</a>
+                </div>
+                <div>
+                    <h2>FILTER</h2>
+                    <a href="filter.html">click here</a>
+                </div>
+            </div>    
+        </div>
+    </div>
+    <hr>
+    <section id="contact-section">
+        <h2>Contact Me</h2>
+        <p>Feel free to get in touch with me!</p>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <marquee scrollamount="15" behavior="" direction="right">My Portfolio. All rights reserved.</marquee>
+</body>
+</html>
