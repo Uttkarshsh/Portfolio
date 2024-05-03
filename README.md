@@ -24,6 +24,10 @@ My portfolio website serves as a dynamic platform for showcasing my expertise, c
 
 
 ![image](https://github.com/Uttkarshsh/Portfolio/assets/168623259/d3101347-ff16-44da-915d-4ed0e74a6323)
+![image](https://github.com/Uttkarshsh/Portfolio/assets/168623259/e6f480b1-a11e-4779-b430-9857176dcc0d)
+![image](https://github.com/Uttkarshsh/Portfolio/assets/168623259/3dd8f723-59e9-4659-b303-e6919b673784)
+
+
 
 
 
